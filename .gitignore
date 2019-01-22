@@ -7,3 +7,7 @@ target/
 catalina.base_IS_UNDEFINED/
 bin/
 .DS_Store
+/.idea/
+/target/
+/user.txt
+/test
