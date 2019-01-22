@@ -2,8 +2,6 @@ package com.Sort;
 
 import org.springframework.util.CollectionUtils;
 
-import java.util.Collections;
-
 /**
  * @Author: huangbin
  * @Description:
@@ -15,9 +13,10 @@ public class Sort {
 
     public static void main(String[] args) {
         int[] arrs = {1, 6, 2, 7, 7, 3, 4, 1, 9};
-        quickSort(arrs, 0, arrs.length - 1);
+        //        quickSort(arrs, 0, arrs.length - 1);
         //                insertSort(arrs);
         //        chooseSort(arrs);
+        moreSort(arrs);
         System.out.println(CollectionUtils.arrayToList(arrs));
     }
 
@@ -79,5 +78,19 @@ public class Sort {
         }
     }
 
+    public static void moreSort(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            boolean isSort = true;
+            for (int j = 1; j < arr.length - i; j++) {
+                if (arr[j - 1] > arr[j]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = temp;
+                    isSort = false;
+                }
+            }
+            if (isSort) {break;}
+        }
+    }
 
 }
