@@ -13,8 +13,14 @@ import lombok.Setter;
 @Getter
 @AllArgsConstructor
 public enum GenderType {
-    Man("Man","男"),
-    Woman("Woman","女");
-    private String code;
-    private String message;
+//    /**
+//     *
+//     */
+//    Man("Man","男"),
+//    /**
+//     *
+//     */
+//    Woman("Woman","女");
+//    private String code;
+//    private String message;
 }

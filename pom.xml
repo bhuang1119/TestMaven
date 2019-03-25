@@ -7,9 +7,6 @@
   <groupId>com.test</groupId>
   <artifactId>TestMaven</artifactId>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>quartz</module>
-    </modules>
     <packaging>pom</packaging>
 
   <name>TestMaven Maven Webapp</name>
