@@ -11,6 +11,7 @@ public class test {
     public static void main(String[] args) {
         ThreadLocalHolder.set("thread");
         System.out.println(ThreadLocalHolder.get());
+//        Thread;
     }
 
 }

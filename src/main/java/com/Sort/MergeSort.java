@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * @author: huangbin
- * @description:
+ * @description: 归并排序
  * @date: Created in 2019/3/24
  * @modified By:
  */
